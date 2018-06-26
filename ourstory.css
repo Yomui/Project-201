@@ -1,0 +1,247 @@
+*, html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+#head{
+    background-color: #0d4732;
+    height: 150px;
+    width: 100%;
+}
+#head nav a{
+    color: white;
+    margin-left: 20px;
+    float: left;
+}
+#tlj, #ab{
+    color: white;
+}
+#tlj{
+    width: 400px;
+    font-size: 50px;
+    margin: 0 auto;
+}
+#ab{
+    width: 500px;
+    font-size: 50px;
+    margin: 0 auto;
+}
+#contactonline-child a{
+    float: right;
+    margin-right: 10px;
+    color: white;
+    width: 50px;
+}
+#contactonline-child a i{
+    font-size: 35px;
+}
+#contactonline-child::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+#profile_child{
+    text-align: center;
+    position: relative;
+}
+#profile_child a{
+    display: inline-block;
+    margin-left: 2px;
+    font-weight: bold;
+    color: gainsboro;
+    line-height: 40px;
+    margin-left: 10px;
+    width: 100px;
+}
+#profile_child::after{
+    content: '';
+    background-color: rgba(98,87,75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 40px;
+    opacity: 0.5;
+}
+#profile_child a{
+    position: relative;
+}
+#profile_child a:hover{
+    cursor: pointer;
+    color: white;
+}
+#profile_child a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0 ease;
+    z-index: 1;
+}
+#profile_child a:hover::after{
+    width: 0;
+    border-bottom: 3px solid white;
+    transition: width 2s ease;
+}
+#profile_child a::before{
+    content: '';
+    position: absolute;
+    border-top: 3px solid white;
+    width: 100%;
+    right: 0;
+    top: 0;
+    transition: all 2s ease;
+    z-index: 1;
+}
+#profile_child a:hover::before{
+    width: 0;
+    transition: width 0s ease;
+}
+.fa-search:hover{
+    cursor: pointer;
+    color: white;
+}
+.fa-search{
+    color: gainsboro;
+}
+/*-----------head-----------------*/
+body{
+    background-color: gainsboro;
+}
+.bar-logo{
+    background-image: url(img/logo.jpg);
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: -40px;
+    z-index: -1;
+    background-position: center;
+}
+.bar-logo img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 130px;
+}
+.nav-logo{
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 320px;
+    left: 1000px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+#body-wrapper div:nth-of-type(1) img{
+    float: left;
+    margin-left: 10px;
+    display: block;
+}
+#div-1-child{
+    margin-bottom: 100px;
+    display: block;
+    margin-left: 700px;
+}
+#body-wrapper div:nth-of-type(1) div h2 span{
+    color: brown;
+}
+#body-wrapper div:nth-of-type(1) div h2{
+    border-top: 1px dashed black;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.child-div{
+    margin-bottom: 50px;
+    width: 400px;
+}
+#body-wrapper div:nth-of-type(1)::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+#body-wrapper div:nth-of-type(2){
+    display: block;
+}
+#body-wrapper div:nth-of-type(2) h2{
+    border-top: 1px dashed black;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+#body-wrapper div:nth-of-type(2) h2 span{
+    color: brown;
+}
+#body-wrapper div:nth-of-type(2) img{
+    float: right;
+    margin-right: 50px;
+}
+#child-2{
+    margin-left: 30px;
+}
+#child-child-2 div:first-child{
+    height: 80px;
+}
+#child-child-2 div{
+    width: 400px;
+}
+#body-wrapper div:nth-of-type(2)::after{
+    content: '';
+    clear: both;
+    display: block;
+}
+#body-wrapper div:nth-of-type(3){
+    margin-top: 50px;
+}
+#body-wrapper div:nth-of-type(3) img{
+    float: left;
+    margin-left: 20px;
+}
+#child-3 ul{
+    list-style-type: none;
+}
+#child-3{
+    margin-left: 550px;
+}
+#child-3 h2{
+    border-top: 1px dashed black;
+    padding-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 250px;
+}
+#child-3 h2 span{
+    color: brown;
+}
+#child-3 ul{
+    margin-bottom: 20px;
+}
+#child-3 ul li span{
+    color: brown;
+}
+/*----------------------------------footer-------------------------------*/
+#footer{
+    display: block;
+    margin-top: 5%;
+    background-color: #0d4732;
+    height: 90px;
+    color: white;
+    position: relative;
+}
+#footer_child{
+    float: left;
+}
+#pp{
+    position: absolute;
+    left: 88%;
+    top: 18px;
+}

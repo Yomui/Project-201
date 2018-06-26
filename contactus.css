@@ -1,0 +1,266 @@
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+position: relative
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 200px;
+  left: 580px
+}
+.centered {
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white
+}
+
+.HOME {
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    right: 10%;
+    transform: translate(-50%, -50%);
+}
+.CAREERS {
+    color: white;
+    position: absolute;
+    bottom: 2%;
+    right: 2.5%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 2%;
+    right: 0%;
+    color: white;
+    transform: translate(-50%, -50%);
+}   
+.box{
+    background-color: whitesmoke;
+    border: 10px ;
+    border-style: double;
+    border-color:dimgray;
+    padding: 25px;
+    margin: 25px;
+    height: 350px;
+}
+
+.special::after {
+  content:'/'; 
+  color: white;
+}
+.row1{
+    float: left;
+}
+.row2{
+    float:right;
+}
+*, html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+nav{
+    float: left;
+    margin-left: 7%;
+}
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+#contactonline{
+    float: right;
+    margin-right: 5%;
+}
+#contactonline a{
+    color: white;
+}
+#contactonline a:hover{
+    text-decoration: underline;
+}
+.fab{
+    width: 5px;
+    height: 5px;
+    margin-right: 10px;
+    color: white;
+}
+.fab:hover{
+    cursor: pointer;
+}
+.fas{
+    display: inline;
+    color: black;
+}
+#head{
+    background-color: #0d4732;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 20%;
+    z-index: 1;
+    width: 100%;
+}
+#head nav a{
+    color: white;
+    margin-left: 3px;
+}
+#profile{
+    z-index: 1;
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: 100%;
+    top: 20%;
+}
+.logo{
+    display: block;
+    color: white;
+}
+#tlj{
+    width: 60%;
+    position: absolute;
+    font-size: 60px;
+    top: 35%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+#ab{
+    position: absolute;
+    font-size: 60px;
+    width: 70%;
+    top: 75%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+}
+#profile_child{
+    text-align: center;
+}
+#profile_child a{
+    display: inline-block;
+    margin-left: 2px;
+    font-weight: bold;
+    color: black;
+    line-height: 40px;
+    margin-left: 10px;
+    width: 100px;
+}
+#profile_child::after{
+    content: '';
+    background-color: rgba(98,87,75);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 40px;
+    opacity: 0.5;
+}
+#profile_child a{
+    position: relative;
+}
+#profile_child a:hover{
+    cursor: pointer;
+}
+#profile_child a:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transition: all 0 ease;
+    z-index: 1;
+}
+#profile_child a:hover::after{
+    width: 0;
+    border-bottom: 3px solid white;
+    transition: width 2s ease;
+}
+#profile_child a::before{
+    content: '';
+    position: absolute;
+    border-top: 3px solid white;
+    width: 100%;
+    right: 0;
+    top: 0;
+    transition: all 2s ease;
+    z-index: 1;
+}
+#profile_child a:hover::before{
+    width: 0;
+    transition: width 0s ease;
+}
+#outside_home{
+    position: absolute;
+    top: 1370px;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    background-image: url(img/4.png);
+    height: 700px;
+    background-position: center;
+    width: 100%;
+    z-index: -2;
+}
+#footer{
+    display: block;
+    margin-top: 0%;
+    background-color: #0d4732;
+    height: 90px;
+    color: white;
+    position: relative;
+}
+#footer_child{
+    float: left;
+}
+body{
+    background-color: gainsboro;
+}
+#body_wrapper{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+    height:60%;
+    width: auto;
+    background-color: whitesmoke;
+}
+.body_main{
+    border:8px;
+    border-style: double;
+    border-color: darkgray;
+    padding: 25px;
+    margin: 25px;
+    height: 60%;
+    
+}
+.imgcenter{
+    transform:translate(3.4%)
+}
+.button {
+    background-color:darkkhaki;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+p{
+    font-size: 11px;
+}
